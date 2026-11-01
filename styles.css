@@ -1,7 +1,9 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial;
     color:darkslategray;
     font-size: 0.9rem;
+    background-color: ivory;
+    line-height: 1.5;
 }
 
 img {
@@ -10,7 +12,7 @@ img {
 }
 
 h1, h2 {
-    color: darkblue;
+    color: navy;
     text-align: center;
     
 }
@@ -33,17 +35,14 @@ p {
     text-align: left;
 }
 
-
-
-/*p {
-    text-align: rigth;
-    text-decoration:underline;
-    font-size: 1.5rem;
+span {
     font-weight: bold;
-}*/
+    background-color: yellow;
+}
+
 
 ul:first-of-type {
-    list-style-type:;
+    list-style-image: url("images/check.svg");
 }
 
 ul {
@@ -51,18 +50,39 @@ ul {
 }
 
 li::marker {
-    color: red;
+    color: crimson;
 }
 
 ol {
     list-style-type: upper-roman;
 }
 
-a {background-color: aqua;}
+a {
+    color: darkgreen;
+    text-decoration:none;
+}
 
 a:hover {
-    color: rgb(0, 213, 255);
-    background-color: rgb(191, 23, 23, 0.5);
+    background-color: lightgreen;
+    text-decoration: underline;
+}
+
+table, td, th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: navy;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tr{
+    
 }
 
 footer {
