@@ -81,9 +81,10 @@ tr:nth-child(even){
     background-color: lightgray;
 }
 
-tr{
-    
+tbody tr:hover {
+    background-color: lightblue;
 }
+
 
 footer {
     text-align: center;
