@@ -1,17 +1,61 @@
-h1 {
-    color: blue;
-}
-
 body {
     font-family: sans-serif;
+    color:darkslategray;
+    font-size: 0.9rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1, h2 {
+    color: darkblue;
+    text-align: center;
     
-}   
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h2 + p{
+    font-style: italic;
+}
+
+   
+p:first-of-type {
+    text-align: center;
+    
+}
 
 p {
+    text-align: left;
+}
+
+
+
+/*p {
     text-align: rigth;
     text-decoration:underline;
     font-size: 1.5rem;
     font-weight: bold;
+}*/
+
+ul:first-of-type {
+    list-style-type:;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li::marker {
+    color: red;
+}
+
+ol {
+    list-style-type: upper-roman;
 }
 
 a {background-color: aqua;}
@@ -19,4 +63,9 @@ a {background-color: aqua;}
 a:hover {
     color: rgb(0, 213, 255);
     background-color: rgb(191, 23, 23, 0.5);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
 }
